@@ -30,8 +30,6 @@ NobenKosten(관리비. 전기세, 수도세, 냉난방비, 인터넷 등이 포�
 밋베보너Mitbewohner(남성)  
 밋베보너린Mitbewohnerin(여성)  
 
-### 관련 상식
-
 
 ### Refer
 https://m.post.naver.com/viewer/postView.nhn?volumeNo=6911934&memberNo=7515107

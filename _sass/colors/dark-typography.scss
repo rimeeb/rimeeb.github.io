@@ -14,7 +14,7 @@
   --footer-bg-color: var(--main-wrapper-bg);
 
   /* common color */
-  --text-color: rgb(175, 176, 177);
+  --text-color: #939597;
   --heading-color: #cccccc;
   --text-muted-color: rgb(107, 116, 124);
   --link-color: rgb(138, 180, 248);
@@ -33,8 +33,8 @@
   --checkbox-checked-color: var(--link-color);
 
   /* Sidebar */
-  --nav-cursor-color: rgb(183, 182, 182);
-  --sidebar-bg: radial-gradient(circle, #242424 0%, #1d1f27 100%);
+  --nav-cursor-color: #939597;
+  --sidebar-bg: radial-gradient(circle, #F5DF4D 0%, #F5DF4D 100%);
 
   /* Top Bar */
   --topbar-text-color: var(--text-color);
@@ -126,11 +126,11 @@
   #archives li:nth-child(odd) {
     background-image: linear-gradient(
       to left,
-      rgb(26, 26, 30),
+      rgb(197, 152, 148),
       rgb(39, 39, 45),
       rgb(39, 39, 45),
       rgb(39, 39, 45),
-      rgb(26, 26, 30));
+      rgb(197, 152, 148));
   }
 
 } // dark-scheme

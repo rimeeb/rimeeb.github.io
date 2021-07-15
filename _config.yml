@@ -10,37 +10,24 @@ baseurl: ''
 # the HTML language tag › https://www.w3.org/International/questions/qa-choosing-language-tags
 lang: en-US
 
-<<<<<<< HEAD
+# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+timezone: Asia/Seoul
+
 title: 오늘의 삽질                            # the main title
 
 tagline: Work Diary  # it will display as the sub-title
-=======
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
-
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# --------------------------
-title: Chirpy                          # the main title
-
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
->>>>>>> master
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
   bootstrap Jekyll theme with responsive web design
   and focuses on text presentation.
 
-<<<<<<< HEAD
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://rimeeb.github.io/'
 
 author: rimee               # change to your full name
 
-avatar: /assets/img/20200918_045814.jpeg   # support internet resources
-=======
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
->>>>>>> master
+avatar: ./assets/img/20200918_045814.jpeg   # support internet resources
 
 github:
   username: rimeeb             # change to your github username
@@ -49,36 +36,14 @@ github:
 #   username: twitter_username            # change to your twitter username
 
 social:
-<<<<<<< HEAD
   name: rimeeb                  # it will shows as the copyright owner in Footer
   # email: harimeek@gmail.com             # change to your email address
-=======
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
->>>>>>> master
   links:
     # The first element serves as the copyright owner's link
     - https://www.linkedin.com/in/harim-kang/      # change to your twitter homepage
     - https://github.com/rimeeb       # change to your github homepage 
 
-<<<<<<< HEAD
-google_site_verification: bhRLTATnxSp02cZXiHE7ioAcZsfjCsWcv5KxJ7 # change to your verification string
-
-#--------------------------
-
-
-# Only if your site type is GitHub Project sites and doesn't have a custom domain,
-# change below value to '/projectname'.
-baseurl: ''
-
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Seoul
-=======
 google_site_verification: google_meta_tag_verification # change to your verification string
-# --------------------------
->>>>>>> master
 
 google_analytics:
   id: ''              # fill in your Google Analytics ID
@@ -98,11 +63,8 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-<<<<<<< HEAD
+
 theme_mode: light
-=======
-theme_mode:   # [light|dark]
->>>>>>> master
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -112,7 +74,7 @@ theme_mode:   # [light|dark]
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg
+avatar: /assets/img/20200918_045814.jpeg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -187,7 +149,6 @@ exclude:
   - docs
   - README.md
   - LICENSE
-<<<<<<< HEAD
 
 sitemap_exclude:  # Sitemap will exclude the following items.
   fuzzy:
@@ -202,10 +163,9 @@ sitemap_exclude:  # Sitemap will exclude the following items.
     - sitemap.xml
     - robots.txt
     - redirects.json
-=======
-  - gulpfile.js
-  - node_modules
-  - '*.json'
+    - gulpfile.js
+    - node_modules
+    - '*.json'
 
 jekyll-archives:
   enabled: [categories, tags]
@@ -215,4 +175,4 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
->>>>>>> master
+
